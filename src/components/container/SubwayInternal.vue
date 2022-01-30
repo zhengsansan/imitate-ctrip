@@ -5,8 +5,8 @@
 
 <script>
 export default {
-  name: "SubwayInternal.vue"
-}
+  name: "SubwayInternal",
+};
 </script>
 
 <style scoped>

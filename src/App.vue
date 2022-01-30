@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <Header />
+    <Container />
+    <Footer />
   </div>
   <router-view/>
 </template>
@@ -28,3 +29,17 @@
   }
 }
 </style>
+<script>
+
+import Footer from '@/views/Footer.vue';
+import Header from '@/views/Header.vue';
+import Container from '@/views/Container.vue';
+
+export default {
+  components: {
+    Footer,
+    Header,
+    Container,
+  },
+};
+</script>

@@ -5,8 +5,8 @@
 
 <script>
 export default {
-  name: "Banner.vue"
-}
+  name: "Banner",
+};
 </script>
 
 <style scoped>

@@ -1,12 +1,12 @@
 <!--内容展示区-->
 <template>
-
+222
 </template>
 
 <script>
 export default {
-  name: "Container.vue"
-}
+  name: "Container",
+};
 </script>
 
 <style scoped>

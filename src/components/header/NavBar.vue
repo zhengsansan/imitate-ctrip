@@ -5,8 +5,8 @@
 
 <script>
 export default {
-  name: "nav-bar.vue"
-}
+  name: "nav-bar.vue",
+};
 </script>
 
 <style scoped>

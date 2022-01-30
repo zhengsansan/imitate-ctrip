@@ -5,8 +5,8 @@
 
 <script>
 export default {
-  name: "HeaderContent.vue"
-}
+  name: "HeaderContent.vue",
+};
 </script>
 
 <style scoped>

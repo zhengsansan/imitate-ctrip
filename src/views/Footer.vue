@@ -1,12 +1,12 @@
 <!--页脚-->
 <template>
-
+333
 </template>
 
 <script>
 export default {
-  name: "Footer.vue"
-}
+  name: "Footer",
+};
 </script>
 
 <style scoped>
