@@ -1,11 +1,11 @@
 <!--页脚-->
 <template>
-333
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: "Footer",
+  name: 'Footer',
 };
 </script>
 

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import {App} from '@vue/devtools-api/lib/esm/api/app';
+import { App } from '@vue/devtools-api/lib/esm/api/app';
 
 const routes = [
   {

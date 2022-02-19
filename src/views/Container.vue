@@ -1,11 +1,11 @@
 <!--内容展示区-->
 <template>
-222
+<div></div>
 </template>
 
 <script>
 export default {
-  name: "Container",
+  name: 'Container',
 };
 </script>
 

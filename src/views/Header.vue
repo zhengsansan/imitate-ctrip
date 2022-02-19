@@ -1,11 +1,16 @@
 <!--头部区域-->
 <template>
-111
+  <nav-bar />
+  <HeaderContent />
 </template>
 
 <script>
+import NavBar from '@/components/header/NavBar.vue';
+import HeaderContent from '@/components/header/HeaderContent.vue';
+
 export default {
-  name: "Header",
+  name: 'Header',
+  components: { NavBar, HeaderContent },
 };
 </script>
 
