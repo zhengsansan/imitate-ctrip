@@ -49,4 +49,10 @@ input, textarea, p, blockquote, th, td, em, button {
 ul, li, ol, ul {
   list-style: none;
 }
+
+body {
+  font: 12px/1.5 "Microsoft yahei",arial,Simsun,sans-serif;
+  color: #333;
+  background-color: #fff;
+}
 </style>

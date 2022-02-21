@@ -15,11 +15,16 @@
     </ul>
   </div>
 </div>
+<!--  境外直通车-->
+  <sub-way />
 </template>
 
 <script>
+import SubWay from '@/components/header/SubWay.vue';
+
 export default {
   name: 'BaseNav',
+  components: { SubWay },
   data() {
     return {
       navList: [
