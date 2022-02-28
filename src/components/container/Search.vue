@@ -8,21 +8,27 @@
       </li>
     </ul>
   </div>
+  <hotel v-if="checkedIndex === 0"></hotel>
 </div>
 </template>
 
 <script>
+import Hotel from '@/components/container/search-box-container/Hotel.vue';
+
 export default {
   name: 'Search',
+  components: [Hotel],
   data() {
     return {
       UIList: [{ checked: true, title: '酒店' }, { checked: false, title: '机票' },
         { checked: false, title: '旅游' }, { checked: false, title: '跟团游' },
         { checked: false, title: '火车' }],
+      checkedIndex: 0,
     };
   },
   methods: {
     switchUI(index) {
+      this.checkedIndex = index;
       const lastIndex = this.UIList.findIndex((it) => it.checked);
       this.UIList[lastIndex].checked = false;
       this.UIList[index].checked = true;

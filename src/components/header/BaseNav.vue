@@ -16,7 +16,7 @@
   </div>
 </div>
 <!--  境外直通车-->
-  <sub-way />
+  <sub-way/>
 </template>
 
 <script>

@@ -4,7 +4,7 @@
   <header-content/>
   <base-nav/>
   <banner/>
-  <Search/>
+  <search/>
 </template>
 
 <script>
